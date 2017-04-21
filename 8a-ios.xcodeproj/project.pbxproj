@@ -7,25 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5990DF2098EB1AA0438A9901 /* libPods-8a-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3951ECAB212E54E5C44C265B /* libPods-8a-ios.a */; };
 		8454E99C1EA92CEE00FE46B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454E99B1EA92CEE00FE46B5 /* main.m */; };
 		8454E99F1EA92CEE00FE46B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454E99E1EA92CEE00FE46B5 /* AppDelegate.m */; };
-		8454E9A21EA92CEE00FE46B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454E9A11EA92CEE00FE46B5 /* ViewController.m */; };
 		8454E9A51EA92CEE00FE46B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454E9A31EA92CEE00FE46B5 /* Main.storyboard */; };
 		8454E9A71EA92CEE00FE46B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8454E9A61EA92CEE00FE46B5 /* Assets.xcassets */; };
 		8454E9AA1EA92CEE00FE46B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454E9A81EA92CEE00FE46B5 /* LaunchScreen.storyboard */; };
+		E4C703CE1EA9AB0D0036902B /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4C703CB1EA9AB0D0036902B /* ProgressHUD.bundle */; };
+		E4C703CF1EA9AB0D0036902B /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703CD1EA9AB0D0036902B /* ProgressHUD.m */; };
+		E4C703D21EA9ABA10036902B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703D11EA9ABA10036902B /* FirstViewController.m */; };
+		E4C703D61EA9AF9F0036902B /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703D51EA9AF9F0036902B /* ConfirmViewController.m */; };
+		E4C703DA1EA9B5B90036902B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703D91EA9B5B90036902B /* Utils.m */; };
+		E4C703DD1EA9B9D40036902B /* ConfirmNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703DC1EA9B9D40036902B /* ConfirmNextViewController.m */; };
+		E4C703E01EA9B9FF0036902B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C703DF1EA9B9FF0036902B /* ProfileViewController.m */; };
+		E4C704221EA9CA260036902B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C7041F1EA9CA260036902B /* APIManager.m */; };
+		E4C704231EA9CA260036902B /* BaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C704211EA9CA260036902B /* BaseAPI.m */; };
+		E4C704591EA9D29D0036902B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C704581EA9D29D0036902B /* CoreGraphics.framework */; };
+		E4C7045B1EA9D2A40036902B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C7045A1EA9D2A40036902B /* MobileCoreServices.framework */; };
+		E4C7045D1EA9D2AC0036902B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C7045C1EA9D2AC0036902B /* SystemConfiguration.framework */; };
+		E4C7045F1EA9D2B40036902B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C7045E1EA9D2B40036902B /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244E139516379A145D096C59 /* Pods-8a-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8a-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-8a-ios/Pods-8a-ios.release.xcconfig"; sourceTree = "<group>"; };
+		3951ECAB212E54E5C44C265B /* libPods-8a-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8a-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F96C98E3E1E1BB642A5FA12 /* Pods-8a-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8a-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-8a-ios/Pods-8a-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		8454E9971EA92CEE00FE46B5 /* 8a-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8a-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454E99B1EA92CEE00FE46B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8454E99D1EA92CEE00FE46B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "8a-ios/AppDelegate.h"; sourceTree = "<group>"; };
 		8454E99E1EA92CEE00FE46B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "8a-ios/AppDelegate.m"; sourceTree = "<group>"; };
-		8454E9A01EA92CEE00FE46B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "8a-ios/ViewController.h"; sourceTree = "<group>"; };
-		8454E9A11EA92CEE00FE46B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "8a-ios/ViewController.m"; sourceTree = "<group>"; };
 		8454E9A41EA92CEE00FE46B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8454E9A61EA92CEE00FE46B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "8a-ios/Assets.xcassets"; sourceTree = "<group>"; };
 		8454E9A91EA92CEE00FE46B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8454E9AB1EA92CEE00FE46B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "8a-ios/Info.plist"; sourceTree = "<group>"; };
+		E4C703CB1EA9AB0D0036902B /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		E4C703CC1EA9AB0D0036902B /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		E4C703CD1EA9AB0D0036902B /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		E4C703D01EA9ABA10036902B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "8a-ios/Classes/FirstViewController.h"; sourceTree = "<group>"; };
+		E4C703D11EA9ABA10036902B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "8a-ios/Classes/FirstViewController.m"; sourceTree = "<group>"; };
+		E4C703D31EA9ACF40036902B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = "8a-ios/PrefixHeader.pch"; sourceTree = "<group>"; };
+		E4C703D41EA9AF9F0036902B /* ConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmViewController.h; path = "8a-ios/Classes/ConfirmViewController.h"; sourceTree = "<group>"; };
+		E4C703D51EA9AF9F0036902B /* ConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmViewController.m; path = "8a-ios/Classes/ConfirmViewController.m"; sourceTree = "<group>"; };
+		E4C703D81EA9B5B90036902B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = "8a-ios/Libs/Utils/Utils.h"; sourceTree = "<group>"; };
+		E4C703D91EA9B5B90036902B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = "8a-ios/Libs/Utils/Utils.m"; sourceTree = "<group>"; };
+		E4C703DB1EA9B9D40036902B /* ConfirmNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmNextViewController.h; path = "8a-ios/Classes/ConfirmNextViewController.h"; sourceTree = "<group>"; };
+		E4C703DC1EA9B9D40036902B /* ConfirmNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmNextViewController.m; path = "8a-ios/Classes/ConfirmNextViewController.m"; sourceTree = "<group>"; };
+		E4C703DE1EA9B9FF0036902B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = "8a-ios/Classes/ProfileViewController.h"; sourceTree = "<group>"; };
+		E4C703DF1EA9B9FF0036902B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = "8a-ios/Classes/ProfileViewController.m"; sourceTree = "<group>"; };
+		E4C7041D1EA9CA260036902B /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIConfig.h; path = "8a-ios/Classes/APIManager/APIConfig.h"; sourceTree = "<group>"; };
+		E4C7041E1EA9CA260036902B /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIManager.h; path = "8a-ios/Classes/APIManager/APIManager.h"; sourceTree = "<group>"; };
+		E4C7041F1EA9CA260036902B /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIManager.m; path = "8a-ios/Classes/APIManager/APIManager.m"; sourceTree = "<group>"; };
+		E4C704201EA9CA260036902B /* BaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseAPI.h; path = "8a-ios/Classes/APIManager/BaseAPI.h"; sourceTree = "<group>"; };
+		E4C704211EA9CA260036902B /* BaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseAPI.m; path = "8a-ios/Classes/APIManager/BaseAPI.m"; sourceTree = "<group>"; };
+		E4C704581EA9D29D0036902B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4C7045A1EA9D2A40036902B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E4C7045C1EA9D2AC0036902B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E4C7045E1EA9D2B40036902B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C7045F1EA9D2B40036902B /* Security.framework in Frameworks */,
+				E4C7045D1EA9D2AC0036902B /* SystemConfiguration.framework in Frameworks */,
+				E4C7045B1EA9D2A40036902B /* MobileCoreServices.framework in Frameworks */,
+				E4C704591EA9D29D0036902B /* CoreGraphics.framework in Frameworks */,
+				5990DF2098EB1AA0438A9901 /* libPods-8a-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,16 +84,19 @@
 		8454E98E1EA92CEE00FE46B5 = {
 			isa = PBXGroup;
 			children = (
+				E4C703C91EA9AAF40036902B /* Libs */,
+				E4C703C81EA9AAEB0036902B /* Classes */,
 				8454E99D1EA92CEE00FE46B5 /* AppDelegate.h */,
 				8454E99E1EA92CEE00FE46B5 /* AppDelegate.m */,
-				8454E9A01EA92CEE00FE46B5 /* ViewController.h */,
-				8454E9A11EA92CEE00FE46B5 /* ViewController.m */,
+				E4C703D31EA9ACF40036902B /* PrefixHeader.pch */,
 				8454E9A31EA92CEE00FE46B5 /* Main.storyboard */,
 				8454E9A61EA92CEE00FE46B5 /* Assets.xcassets */,
 				8454E9A81EA92CEE00FE46B5 /* LaunchScreen.storyboard */,
 				8454E9AB1EA92CEE00FE46B5 /* Info.plist */,
 				8454E99A1EA92CEE00FE46B5 /* Supporting Files */,
 				8454E9981EA92CEE00FE46B5 /* Products */,
+				E4C704571EA9D29D0036902B /* Frameworks */,
+				B7D579992B3440600606851C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +117,84 @@
 			path = "8a-ios";
 			sourceTree = "<group>";
 		};
+		B7D579992B3440600606851C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F96C98E3E1E1BB642A5FA12 /* Pods-8a-ios.debug.xcconfig */,
+				244E139516379A145D096C59 /* Pods-8a-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4C703C81EA9AAEB0036902B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7041C1EA9C9570036902B /* APIManager */,
+				E4C703D01EA9ABA10036902B /* FirstViewController.h */,
+				E4C703D11EA9ABA10036902B /* FirstViewController.m */,
+				E4C703D41EA9AF9F0036902B /* ConfirmViewController.h */,
+				E4C703D51EA9AF9F0036902B /* ConfirmViewController.m */,
+				E4C703DB1EA9B9D40036902B /* ConfirmNextViewController.h */,
+				E4C703DC1EA9B9D40036902B /* ConfirmNextViewController.m */,
+				E4C703DE1EA9B9FF0036902B /* ProfileViewController.h */,
+				E4C703DF1EA9B9FF0036902B /* ProfileViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E4C703C91EA9AAF40036902B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E4C703D71EA9B5990036902B /* Utils */,
+				E4C703CA1EA9AB0D0036902B /* ProgressHUD */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		E4C703CA1EA9AB0D0036902B /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E4C703CB1EA9AB0D0036902B /* ProgressHUD.bundle */,
+				E4C703CC1EA9AB0D0036902B /* ProgressHUD.h */,
+				E4C703CD1EA9AB0D0036902B /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = "8a-ios/Libs/ProgressHUD";
+			sourceTree = "<group>";
+		};
+		E4C703D71EA9B5990036902B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4C703D81EA9B5B90036902B /* Utils.h */,
+				E4C703D91EA9B5B90036902B /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E4C7041C1EA9C9570036902B /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7041D1EA9CA260036902B /* APIConfig.h */,
+				E4C7041E1EA9CA260036902B /* APIManager.h */,
+				E4C7041F1EA9CA260036902B /* APIManager.m */,
+				E4C704201EA9CA260036902B /* BaseAPI.h */,
+				E4C704211EA9CA260036902B /* BaseAPI.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		E4C704571EA9D29D0036902B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7045E1EA9D2B40036902B /* Security.framework */,
+				E4C7045C1EA9D2AC0036902B /* SystemConfiguration.framework */,
+				E4C7045A1EA9D2A40036902B /* MobileCoreServices.framework */,
+				E4C704581EA9D29D0036902B /* CoreGraphics.framework */,
+				3951ECAB212E54E5C44C265B /* libPods-8a-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8454E9AE1EA92CEE00FE46B5 /* Build configuration list for PBXNativeTarget "8a-ios" */;
 			buildPhases = (
+				438BCE1FEC0019A00550C7EB /* [CP] Check Pods Manifest.lock */,
 				8454E9931EA92CEE00FE46B5 /* Sources */,
 				8454E9941EA92CEE00FE46B5 /* Frameworks */,
 				8454E9951EA92CEE00FE46B5 /* Resources */,
+				A6B62BC06DCA7751CFD5BDF8 /* [CP] Embed Pods Frameworks */,
+				AC80C593C7EDE163E358D642 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C703CE1EA9AB0D0036902B /* ProgressHUD.bundle in Resources */,
 				8454E9AA1EA92CEE00FE46B5 /* LaunchScreen.storyboard in Resources */,
 				8454E9A71EA92CEE00FE46B5 /* Assets.xcassets in Resources */,
 				8454E9A51EA92CEE00FE46B5 /* Main.storyboard in Resources */,
@@ -138,14 +265,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		438BCE1FEC0019A00550C7EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B62BC06DCA7751CFD5BDF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8a-ios/Pods-8a-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC80C593C7EDE163E358D642 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8a-ios/Pods-8a-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8454E9931EA92CEE00FE46B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8454E9A21EA92CEE00FE46B5 /* ViewController.m in Sources */,
 				8454E99F1EA92CEE00FE46B5 /* AppDelegate.m in Sources */,
+				E4C703D61EA9AF9F0036902B /* ConfirmViewController.m in Sources */,
+				E4C703E01EA9B9FF0036902B /* ProfileViewController.m in Sources */,
+				E4C703DD1EA9B9D40036902B /* ConfirmNextViewController.m in Sources */,
+				E4C703CF1EA9AB0D0036902B /* ProgressHUD.m in Sources */,
+				E4C703DA1EA9B5B90036902B /* Utils.m in Sources */,
 				8454E99C1EA92CEE00FE46B5 /* main.m in Sources */,
+				E4C704221EA9CA260036902B /* APIManager.m in Sources */,
+				E4C704231EA9CA260036902B /* BaseAPI.m in Sources */,
+				E4C703D21EA9ABA10036902B /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +449,15 @@
 		};
 		8454E9AF1EA92CEE00FE46B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F96C98E3E1E1BB642A5FA12 /* Pods-8a-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "8a-ios/PrefixHeader.pch";
 				INFOPLIST_FILE = "8a-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wwl.-a-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -278,10 +465,15 @@
 		};
 		8454E9B01EA92CEE00FE46B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244E139516379A145D096C59 /* Pods-8a-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "8a-ios/PrefixHeader.pch";
 				INFOPLIST_FILE = "8a-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wwl.-a-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
