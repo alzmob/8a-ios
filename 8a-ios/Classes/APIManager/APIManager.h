@@ -19,4 +19,6 @@
 
 -(void)loginWithEmail:(NSString *)email password: (NSString *)password withCompletion:(void(^)(BOOL success,id res))block;
 
+-(void)getProfile:(NSString *)auth withCompletion:(void(^)(BOOL success,id res))block;
+
 @end

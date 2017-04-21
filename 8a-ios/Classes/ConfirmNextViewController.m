@@ -7,12 +7,15 @@
 //
 
 #import "ConfirmNextViewController.h"
+#import "ProfileViewController.h"
 
 @interface ConfirmNextViewController () <UITextFieldDelegate> {
     IBOutlet UIButton *nextBtn;
     IBOutlet UIButton *notReceiveBtn;
     IBOutlet UITextField *codeTxtFld;
     IBOutlet UILabel *reportLabel;
+    
+    NSString *token;
 }
 
 @end
@@ -49,6 +52,8 @@
     [[APIManager shared] loginWithPhoneNumber:self.phonenumber confirmationCode:code withCompletion:^(BOOL success, id res) {
         [ProgressHUD dismiss];
         if (success) {
+            token = res[@"token"];
+            NSLog(@"token:%@", token);
             [self goProfileVC];
         }else {
             [reportLabel setHidden:NO];
@@ -69,6 +74,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString:@"segue_nextToProfile"]) {
+        ProfileViewController *vc = [segue destinationViewController];
+        vc.token = token;
+    }
 }
 
 @end

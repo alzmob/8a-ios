@@ -18,9 +18,9 @@
 
 @implementation BaseAPI
 
-- (void)requestGetWithURL:(NSString *)url atPath:(NSString *)path withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block
+- (void)requestGetWithURL:(NSString *)url atPath:(NSString *)path withAuth:(NSString*)auth withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block
 {
-    
+    [[BaseAPI shared].manager.requestSerializer setValue:auth forHTTPHeaderField:@"Authorization"];
     [[BaseAPI shared].manager GET:[NSString stringWithFormat:@"%@%@",url,path] parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

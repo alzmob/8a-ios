@@ -54,7 +54,6 @@
         
         if (success) {
             if ([res[@"success"] isEqualToString:@"ok"]) {
-                NSLog(@"MSGG:%@", res[@"message"]);
                 [ProgressHUD showSuccess:res[@"message"] Interaction:YES];
                 
                 //go to ConfirmViewController

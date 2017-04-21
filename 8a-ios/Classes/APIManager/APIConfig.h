@@ -12,5 +12,6 @@
 #define BASE_URL @"http://dev-api.wwl.tv"
 #define RequestConfirmationCode @"/api/v1/login/request-code"
 #define LoginWithCredentials @"/api/v1/login"
+#define RequestProfile @"/api/v1/users/profile-fields"
 
 #endif /* APIConfig_h */

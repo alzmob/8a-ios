@@ -15,7 +15,7 @@
 
 +(BaseAPI *)shared;
 
-- (void)requestGetWithURL:(NSString *)url atPath:(NSString *)path withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block;
+- (void)requestGetWithURL:(NSString *)url atPath:(NSString *)path withAuth:(NSString*)auth withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block;
 - (void)requestPostWithURL:(NSString *)url atPath:(NSString *)path withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block;
 - (void)requestDeleteWithURL:(NSString *)url atPath:(NSString *)path withParams:(NSDictionary *)params withResponse:(void(^)(BOOL success,id res))block;
 - (void)requestPutWithURL:(NSString *)url atPath:(NSString *)path withParams:(NSDictionary *)params  withResponse:(void(^)(BOOL success,id res))block;
