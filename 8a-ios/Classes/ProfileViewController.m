@@ -72,7 +72,9 @@
         MyImageCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
         
         cell.titleLbl.text = title;
-        [cell.imgview sd_setImageWithURL:[[NSURL alloc] initWithString:value]];
+        if (value != NULL && ![value  isEqual: @""]) {
+            [cell.imgview sd_setImageWithURL:[[NSURL alloc] initWithString:value]];
+        }        
         
         return cell;
         
